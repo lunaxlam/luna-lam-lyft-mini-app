@@ -18,7 +18,7 @@ class AppTests(unittest.TestCase):
         """Check to see if the correct content renders on the homepage"""
 
         result = self.client.get("/")
-        self.assertIn(b"Please enter a string and we will cut it for you for no additional charge:", result.data)
+        self.assertIn(b"Please enter a string and we will cut it for you:", result.data)
     
 
     def test_result(self):
@@ -35,8 +35,5 @@ class AppTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
-
-    
 
     

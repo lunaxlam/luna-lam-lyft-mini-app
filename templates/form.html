@@ -1,9 +1,15 @@
 {% extends 'base.html' %}
-{% block title %}Request Form{% endblock %}
+{% block title %}Luna Lam's String Cuttery{% endblock %}
 
 {% block body %}
 
-<h1>Please enter a string and we will cut it for you for no additional charge:</h1>
+<div id="main-header">
+<h1>Welcome to <a href="https://github.com/lunaxlam">Luna Lam's</a> String Cuttery</h1>
+<h3>Specializing in string cutting since 2022</h3>
+</div>
+
+<br>
+<h2>Please enter a string and we will cut it for you:</h2>
 <form action="/test" method="POST">
     <label for="string-to-cut">String: </label>
     <input type="text" name="string_to_cut" id="string-to-cut" required>
