@@ -22,7 +22,7 @@ def show_form():
 
 @app.route("/test", methods=["POST"])
 def test():
-    """Return a JSON object of a modified string"""
+    """Return a JSON object"""
 
     string_to_cut = request.form.get("string_to_cut")
 
