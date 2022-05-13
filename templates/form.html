@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Request Form{% endblock %}
+
+{% block body %}
+
+<h1>Please enter a string and we will cut it for you for no additional charge:</h1>
+<form action="/test" method="POST">
+    <label for="string-to-cut">String: </label>
+    <input type="text" name="string_to_cut" id="string-to-cut" required>
+    <input type="submit" name="submit" required>
+</form>
+
+{% endblock %}
