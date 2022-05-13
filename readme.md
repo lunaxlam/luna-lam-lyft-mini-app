@@ -8,7 +8,7 @@ A simple web application by [Luna Lam](https://github.com/lunaxlam) that accepts
 * [Installation](https://github.com/lunaxlam/luna-lam-lyft-mini-app#installation)
 
 ## **Summary**
-*Luna Lam's String Cuttery* enables users to enter a desired string into a form. The form data is sent as a POST request to a specified route, which returns a JSON object of with the key "return_string" and a string that contains every third-letter of the original string. 
+*Luna Lam's String Cuttery* enables users to enter a desired string into a form. The form data is sent as a POST request to a specified route, which returns a JSON object with the key "return_string" and a string that contains every third-letter of the original string. 
 
 ## **Tech Stack**
 Backend: Flask, Python<br />
