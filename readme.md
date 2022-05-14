@@ -1,5 +1,5 @@
 # **Luna Lam's String Cuttery**
-A simple web application by [Luna Lam](https://github.com/lunaxlam) that accepts a POST request and returns a JSON object of a converted string.
+A simple web application by [Luna Lam](https://github.com/lunaxlam)
 
 ## **Table of Contents**
 

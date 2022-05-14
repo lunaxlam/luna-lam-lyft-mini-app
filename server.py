@@ -1,6 +1,6 @@
 """Server for mini app for Lyft"""
  
-from flask import Flask, render_template, request, redirect, flash, jsonify
+from flask import Flask, render_template, request, flash, jsonify
 from os import environ
 
 # Create a Flask instance
