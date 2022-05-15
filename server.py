@@ -30,7 +30,7 @@ def test():
 
     # Standardize the form input in case user wraps string in quotes
     for char in string_to_cut:
-        if char != '"' and char != "'":
+        if char.isalpha():
             standard_string += char
 
     cut_string = ""
